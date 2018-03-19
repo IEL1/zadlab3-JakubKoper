@@ -18,6 +18,28 @@ public class Main {
         // TODO 1.4, 1.7, 
         // TODO 2.2
         // TODO 3.3, 3.4
+        //1.4
+        int a = 10;
+        int w1, w2, w3, w4;
+        System.out.println(a);
+        w1 = a << 3;
+        //10 << 3 = 10* 2^3 = 10 * 80 = 80
+        a = 10;
+        w2 = a >> 3;
+        System.out.println(w2);
+        //10 >> 3 = 10 / 2^3 = 10 / 8 = 1
+        a = 10;
+        w3 = a >>> 3;
+        System.out.println(w3);
+        //10 >>> 3 = 10 >> 3 = 10 / 2^3 = 1
+        a = -17;
+        w4 = a >>> 3;
+        System.out.println(w4);
+        //-17 >>> 3 = 536870909
+        
+        //1.7
+        //NOR -> !
+        //XOR -> ^
     }
-    
+
 }
